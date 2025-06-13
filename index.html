@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wedding Invitation</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      font-family: 'Georgia', serif;
+    }
+
+    body {
+      background: url('neenupic.jpeg') no-repeat center center/cover;
+    }
+
+    .invitation {
+      background: rgba(0, 0, 0, 0.4); /* semi-transparent overlay */
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    .invitation h1 {
+      font-size: 2em;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    .names {
+      font-size: 1.6em;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    .details {
+      font-size: 1em;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+      .invitation h1 {
+        font-size: 1.6em;
+      }
+
+      .names {
+        font-size: 1.4em;
+      }
+
+      .details {
+        font-size: 0.95em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="invitation">
+    <h1><br><span style="font-size: 1.5em;">Reception ceremony</span></h1>
+    <div class="names">Nainika<br>and<br>Guruprasad</div>
+    <div class="details">
+      Saturday<br>
+      July 19th<br>
+      6:00 pm<br>
+      Town bank Auditiorium<br><br>
+      <div>
+        <a href="https://maps.google.com/?q=Town+Bank+Auditorium" target="_blank" style="color: #fff; text-decoration: underline; font-weight: bold;">
+          📍 View Location
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</body>
+</html>
